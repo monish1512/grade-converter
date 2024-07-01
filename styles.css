@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background-image: url(./new-idea-light-bulb_10221-11507.avif);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color:antiquewhite;
+    height: 120vh;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    text-align: left;
+    font-style: italic;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 16px);
+}
+
+button {
+    margin-top: 3px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #555;
+}
+#result:hover{
+    color:black;
+}
+.cont {
+    background-color:antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+.cont:hover{
+    color:blue;
+}
+.cont h1{
+        margin-bottom: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

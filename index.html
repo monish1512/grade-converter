@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grade Generator</h1>
+        <form id="gradeForm" action="result.html" method="get">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" name="studentName" required>
+            <label for="rollNumber">Roll Number:</label>
+            <input type="text" id="rollNumber" name="rollNumber" required>
+            <label for="studentClass">Class:</label>
+            <input type="text" id="studentClass" name="studentClass" required>
+            <label for="subject1">Tamil:</label>
+            <input type="number" id="subject1" name="subject1" min="0" max="100" required>
+            <label for="subject2">English:</label>
+            <input type="number" id="subject2" name="subject2" min="0" max="100" required>
+            <label for="subject3">Maths:</label>
+            <input type="number" id="subject3" name="subject3" min="0" max="100" required>
+            <label for="subject4">Science:</label>
+            <input type="number" id="subject4" name="subject4" min="0" max="100" required>
+            <label for="subject5">Social:</label>
+            <input type="number" id="subject5" name="subject5" min="0" max="100" required>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
